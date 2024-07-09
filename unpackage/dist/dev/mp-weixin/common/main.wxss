@@ -1,0 +1,22 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*每个页面公共css */
+.bom-tabbar{
+	position: absolute;
+	bottom: 20px;
+	width: 100%;
+}
+

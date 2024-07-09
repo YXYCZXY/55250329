@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/show/index",
+    "pages/music/index",
+    "pages/myself/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "HelloApp",
+    "navigationBarBackgroundColor": "#333",
+    "backgroundColor": "#f8f8f8"
+  },
+  "tabBar": {
+    "custom": true,
+    "borderStyle": "white",
+    "backgroundColor": "transparent",
+    "color": "transparent",
+    "selectedColor": "transparent",
+    "list": [
+      {
+        "text": "",
+        "pagePath": "pages/show/index",
+        "iconPath": "static/bar-gs.png",
+        "selectedIconPath": "static/bar-gs-active.png"
+      },
+      {
+        "text": "",
+        "pagePath": "pages/music/index",
+        "iconPath": "static/bar-as.png",
+        "selectedIconPath": "static/bar-as-active.png"
+      },
+      {
+        "text": "",
+        "pagePath": "pages/myself/index",
+        "iconPath": "static/bar-ms.png",
+        "selectedIconPath": "static/bar-gs-active.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "tab-bar": "/pages/components/index"
+  }
+}
