@@ -1,8 +1,10 @@
 {
   "pages": [
-    "pages/show/index",
-    "pages/music/index",
-    "pages/myself/index"
+    "pages/Monster/index",
+    "pages/Masa/index",
+    "pages/Ashin/index",
+    "pages/Stone/index",
+    "pages/Ming/index"
   ],
   "subPackages": [],
   "window": {
@@ -20,21 +22,33 @@
     "list": [
       {
         "text": "",
-        "pagePath": "pages/show/index",
+        "pagePath": "pages/Monster/index",
         "iconPath": "static/bar-gs.png",
-        "selectedIconPath": "static/bar-gs-active.png"
+        "selectedIconPath": "static/bar-gs.png"
       },
       {
         "text": "",
-        "pagePath": "pages/music/index",
+        "pagePath": "pages/Masa/index",
         "iconPath": "static/bar-as.png",
-        "selectedIconPath": "static/bar-as-active.png"
+        "selectedIconPath": "static/bar-as.png"
       },
       {
         "text": "",
-        "pagePath": "pages/myself/index",
+        "pagePath": "pages/Ashin/index",
         "iconPath": "static/bar-ms.png",
-        "selectedIconPath": "static/bar-gs-active.png"
+        "selectedIconPath": "static/bar-gs.png"
+      },
+      {
+        "text": "",
+        "pagePath": "pages/Stone/index",
+        "iconPath": "static/bar-ms.png",
+        "selectedIconPath": "static/bar-gs.png"
+      },
+      {
+        "text": "",
+        "pagePath": "pages/Ming/index",
+        "iconPath": "static/bar-ms.png",
+        "selectedIconPath": "static/bar-gs.png"
       }
     ]
   },

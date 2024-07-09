@@ -1,0 +1,1 @@
+<view class="content head-bg"><image class="logo" src="/static/logo.png"></image><view class="text-area"><text class="title">{{title}}</text></view><tab-bar class="bom-tabbar" vue-id="1b3a991c-1" pagePath="/pages/show/index" bind:__l="__l"></tab-bar></view>

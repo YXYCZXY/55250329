@@ -52,7 +52,7 @@
 	}
 	.head-bg{
 	  height: 100vh;
-	  background-image: url('https://6d61-maydaysync-2gaijzhh7553fabf-1327815928.tcb.qcloud.la/maydayimgs/images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20240709214825.jpg?sign=941e47e17ceed873f78658de77fb51bf&t=1720532934');
+	  background-image: url('https://6d61-maydaysync-2gaijzhh7553fabf-1327815928.tcb.qcloud.la/maydayimgs/images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20240709230007.jpg?sign=658c543c3b1a6f4406fc4f165f82414d&t=1720537756');
 	  background-size: 100% 100%;
 	}
 </style>
