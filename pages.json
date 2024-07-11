@@ -11,25 +11,29 @@
     {
       "path": "pages/Masa/index",
       "style": {
-        "navigationBarTitleText": "MayDay Sync"
+        "navigationBarTitleText": "MayDay Sync",
+		"navigationStyle": "custom"
       }
     },
     {
       "path": "pages/Ashin/index",
       "style": {
-        "navigationBarTitleText": "MayDay Sync"
+        "navigationBarTitleText": "MayDay Sync",
+		"navigationStyle": "custom"
       }
     },
     {
       "path": "pages/Stone/index",
       "style": {
-        "navigationBarTitleText": "MayDay Sync"
+        "navigationBarTitleText": "MayDay Sync",
+		"navigationStyle": "custom"
       }
     },
     {
       "path": "pages/Ming/index",
       "style": {
-        "navigationBarTitleText": "MayDay Sync"
+        "navigationBarTitleText": "MayDay Sync",
+		"navigationStyle": "custom"
       }
     }
   ],
@@ -41,6 +45,7 @@
   },
   "tabBar": {
    "custom":true,
+   "height":"0",
     "borderStyle": "white",
     "backgroundColor": "transparent",
     "color": "transparent",

@@ -136,73 +136,60 @@ exports.default = void 0;
 //
 //
 //
-//
 var _default = {
   props: {
-    pagePath: null
+    pagePath: String
   },
   data: function data() {
     return {
-      page: 'contact',
-      showPage: false,
-      containerHeight: 400,
+      currentPage: this.pagePath,
       tabbar: [{
-        "pagePath": "/pages/Masa/index",
-        "iconPath": "/static/bar-gs.png",
-        //未选中tab图标路径
-        "selectedIconPath": "/static/bar-gs.png",
-        //选中tab图标路径
-        "text": ""
+        pagePath: "/pages/Monster/index",
+        iconPath: "/static/bar-gs.png",
+        selectedIconPath: "/static/bar-gs.png",
+        text: ""
       }, {
-        "pagePath": "/pages/Monster/index",
-        //页面路径
-        "text": "",
-        //tab字体显示
-        "iconPath": "/static/bar-ms.png",
-        //未选中tab图标路径
-        "selectedIconPath": "/static/bar-ms.png" //选中tab图标路径
+        pagePath: "/pages/Masa/index",
+        text: "",
+        iconPath: "/static/bar-ms.png",
+        selectedIconPath: "/static/bar-ms.png"
       }, {
-        "pagePath": "/pages/Ashin/index",
-        //页面路径
-        "text": "",
-        //tab字体显示
-        "iconPath": "/static/bar-as.png",
-        //未选中tab图标路径
-        "selectedIconPath": "/static/bar-as.png" //选中tab图标路径
+        pagePath: "/pages/Ashin/index",
+        text: "",
+        iconPath: "/static/bar-as.png",
+        selectedIconPath: "/static/bar-as.png"
       }, {
-        "pagePath": "/pages/Stone/index",
-        //页面路径
-        "text": "",
-        //tab字体显示
-        "iconPath": "/static/bar-st.png",
-        //未选中tab图标路径
-        "selectedIconPath": "/static/bar-st.png" //选中tab图标路径
+        pagePath: "/pages/Stone/index",
+        text: "",
+        iconPath: "/static/bar-st.png",
+        selectedIconPath: "/static/bar-st.png"
       }, {
-        "pagePath": "/pages/Ming/index",
-        //页面路径
-        "text": "",
-        //tab字体显示
-        "iconPath": "/static/bar-gy.png",
-        //未选中tab图标路径
-        "selectedIconPath": "/static/bar-gy.png" //选中tab图标路径
+        pagePath: "/pages/Ming/index",
+        text: "",
+        iconPath: "/static/bar-gy.png",
+        selectedIconPath: "/static/bar-gy.png"
       }]
     };
   },
-  onLoad: function onLoad() {
-    console.log(this.pagePath);
+  watch: {
+    pagePath: function pagePath(newPath) {
+      this.currentPage = newPath;
+    }
   },
   methods: {
     changeTab: function changeTab(item) {
-      var currentPage = item.pagePath;
+      this.currentPage = item.pagePath;
       uni.showLoading({
         title: '正在加载...'
       });
-      uni.redirectTo({
-        url: currentPage,
-        success: function success(e) {
+      uni.switchTab({
+        url: item.pagePath,
+        success: function success() {
           uni.hideLoading();
         },
-        fail: function fail(e) {}
+        fail: function fail(e) {
+          console.log(e);
+        }
       });
     }
   }

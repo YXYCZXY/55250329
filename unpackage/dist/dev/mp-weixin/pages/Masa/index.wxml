@@ -1,1 +1,1 @@
-<view class="content"><image class="logo" src="/static/logo.png"></image><view class="text-area"><text class="title">{{title}}</text></view></view>
+<view class="content head-bg"><view class="text-area"><text class="title">{{title}}</text></view><tab-bar class="bom-tabbar" vue-id="6e67ba88-1" pagePath="/pages/Masa/index" bind:__l="__l"></tab-bar></view>

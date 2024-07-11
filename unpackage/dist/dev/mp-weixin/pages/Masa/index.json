@@ -1,4 +1,5 @@
 {
   "navigationBarTitleText": "MayDay Sync",
+  "navigationStyle": "custom",
   "usingComponents": {}
 }

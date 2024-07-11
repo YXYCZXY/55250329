@@ -1,9 +1,9 @@
 <template>
-	<view class="content">
-		<image class="logo" src="/static/logo.png"></image>
+	<view class="content head-bg" >
 		<view class="text-area">
 			<text class="title">{{title}}</text>
 		</view>
+		<TabBar class="bom-tabbar" :pagePath="'/pages/Stone/index'"></TabBar>
 	</view>
 </template>
 
@@ -48,5 +48,10 @@
 	.title {
 		font-size: 36rpx;
 		color: #8f8f94;
+	}
+	.head-bg{
+	  height: 100vh;
+	  background-image: url('https://6d61-maydaysync-2gaijzhh7553fabf-1327815928.tcb.qcloud.la/maydayimgs/images/bg/stone.jpg?sign=69a7c733feb217f94b90a3a6462a4639&t=1720705799');
+	  background-size: 100% 100%;
 	}
 </style>
